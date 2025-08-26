@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav>
           <ul>
             <li>
-              <a href="">Explore!</a>
+              <a className="head">RupExplore!</a>
               <a href="">Sign Up</a>
               <a href="">Log In</a>
             </li>

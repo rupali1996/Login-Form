@@ -1,9 +1,11 @@
 import React from "react";
 import Img from "../images/bg.png";
+import Navbar from "./Navbar";
 
 const Signup = () => {
   return (
     <>
+      <Navbar />
       <div className="main-page">
         <div>
           <img src={Img} alt="image" />
@@ -21,7 +23,7 @@ const Signup = () => {
               placeholder="Enter your password"
             />
             <p>
-              Already have an account ? <a href="">Log in</a>
+              Already have an account ? <a href="/login">Log in</a>
             </p>
             <button>SignUp</button>
           </div>
